@@ -209,9 +209,9 @@ def main():
     
     st.title("Voxelize")
     
-    # Display image after title
+    # Display image after title (small size)
     try:
-        st.image("image.png", use_column_width=False)
+        st.image("image.png", width=200)
     except:
         st.warning("Image 'image.png' not found in the current directory")
     
