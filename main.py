@@ -202,12 +202,19 @@ def display_mesh_info(mesh_obj, voxel_grid):
 
 def main():
     st.set_page_config(
-        page_title="STL to Voxel Viewer",
+        page_title="Voxelize",
         page_icon="🧊",
         layout="wide"
     )
     
-    st.title("STL to Voxel Viewer")
+    st.title("Voxelize")
+    
+    # Display image after title
+    try:
+        st.image("image.png", use_column_width=False)
+    except:
+        st.warning("Image 'image.png' not found in the current directory")
+    
     st.markdown("Upload an STL file to visualize it as voxels")
     
     # Sidebar controls
