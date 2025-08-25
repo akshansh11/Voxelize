@@ -1,0 +1,8 @@
+streamlit
+numpy
+plotly
+numpy-stl
+trimesh
+scipy
+scikit-image
+pandas
