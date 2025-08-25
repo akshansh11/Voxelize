@@ -4,7 +4,6 @@ A powerful web-based application for converting STL files into voxel representat
 
 <img width="2048" height="2048" alt="image" src="https://github.com/user-attachments/assets/5725ad9f-da07-467b-9f11-fb04e9424dcc" />
 
-
 ## Features
 
 ### STL Processing
