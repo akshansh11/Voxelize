@@ -1,5 +1,4 @@
 # Voxelize
-# Voxelize
 
 A powerful web-based application for converting STL files into voxel representations with interactive 3D visualization and analysis tools.
 
